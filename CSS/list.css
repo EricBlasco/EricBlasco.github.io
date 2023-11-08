@@ -1,0 +1,25 @@
+h3 {color: blueviolet;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:gold;
+}
+
+li {color: crimson;
+    font-weight:bold;
+    font-style: italic;
+}
+
+dl {color:darkorange
+
+}
+
+dt {color: green;
+
+}
+
+
+
+html{
+    background-image: url(../../Desktop/timin.png);
+    background-repeat: no-repeat;
+}
