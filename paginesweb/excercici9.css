@@ -1,0 +1,6 @@
+ table,tr,td {
+     border-style: solid;
+     border-color: violet;
+     border-width: 2px;
+     border-collapse: collapse;
+}
