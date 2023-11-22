@@ -1,0 +1,16 @@
+
+.horas
+{
+    text-align: center;
+}
+table{
+    width: 900px;
+}
+th{
+    width: 145px;
+    
+}
+table, th, td {
+    border:2px solid black;
+    
+  }
