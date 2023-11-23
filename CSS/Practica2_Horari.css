@@ -1,3 +1,8 @@
+#proven {
+    width: 50px;
+    height: 50px;
+}
+
 #Titulo
 {
     text-align: center;
@@ -21,4 +26,38 @@ th{
 table, th, td {
     border:2px solid black;
     border-collapse: collapse;
+  }
+
+  .m08
+  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+  }
+  .m07
+  {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: chartreuse;
+  }
+  .m06
+  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+  }
+  .m04
+  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkred;
+  }
+
+  #sintesis
+  {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    background-color: cornflowerblue;
+  }
+
+  #tutoria
+  {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: deepskyblue;
   }
