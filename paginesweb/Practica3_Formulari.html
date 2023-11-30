@@ -1,33 +1,60 @@
 <!DOCTYPE html>
-        <head>
-            <meta charset="utf-8">
-            <meta name="description" content="Practica3-Formilari"/>
-            <title>Practica3-Formulari</title>
-        </head>
-        <body>
-        <h1>Curriclum</h1>
-        <form>
-            <fieldset>
-            <legend>Información Basica</legend>
-            <label for="Nombre">Nombre:</label><br>
-            <input type="text" id="Nombre" name="Nombre"><br>
-            <label for="cm">Altura en centimetros:</label><br>
-            <input type="number"  min="1" max="400" id="cm" name="cm"><br>
-            <label for="Email">Email:</label><br>
-            <input type="email" id="Email" name="Email"><br>
-            <label for="Nacimiento">Fecha Nacimiento:</label><br>
-            <input type="date" id="Nacimiento" name="Nacimiento"><br>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../CSS/Practica3_Formulario.CSS">
+
+    <meta name="description" content="Practica3-Formulario"/>
+    <title>Practica3-Formulario</title>
+</head>
+<body>
+    <h1>Curriculum</h1>
+    <form action="../PHP/form.php">
+        <fieldset id="Info">
+            <legend>Información Básica</legend>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="altura">Altura en centímetros:</label><br>
+            <input type="number" min="1" max="400" id="altura" name="cm"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="fecha">Fecha de Nacimiento:</label><br>
+            <input type="date" id="fecha" name="fecha"><br>
         </fieldset>
-        <fieldset>
+
+        <fieldset id="Nacionalidad">
             <legend>Nacionalidad</legend>
-            <input type="radio" id="Nacionalidad" name="Nacionalidad">
+            <input type="radio" id="Española" name="nacionalidad" value="Española">
             <label for="Española">Española</label>
-            <input type="radio" id="Nacionalidad" name="Nacionalidad">
+            <input type="radio" id="Comunitario" name="nacionalidad" value="Comunitario">
             <label for="Comunitario">Comunitario(UE)</label>
-            <input type="radio" id="Nacionalidad" name="Nacionalidad">
-            <label for="No omunitario">No comunitario</label>
-            
+            <input type="radio" id="NoComunitario" name="nacionalidad" value="NoComunitario">
+            <label for="NoComunitario">No comunitario</label>
         </fieldset>
-        </form>
+
+        <fieldset id="Idiomas">
+            <legend>Idiomas</legend>
+            <input type="checkbox" id="Español" name="idiomas[]" value="Español">
+            <label for="Español">Español</label>
+            <input type="checkbox" id="Ingles" name="idiomas[]" value="Ingles">
+            <label for="Ingles">Inglés</label>
+            <input type="checkbox" id="Frances" name="idiomas[]" value="Frances">
+            <label for="Frances">Francés</label>
+        </fieldset>
+
+        <fieldset id="Estudios">
+            <legend>Estudios</legend>
+            <select name="estudios">
+                <option value="GM">GM</option>
+                <option value="GS">GS</option>
+                <option value="BACH">BACH</option>
+            </select>
+        </fieldset>
+        <fieldset id="Envia">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">  
+        </fieldset>
+    
+</form>
+        
         <p><a href="../index.html">Tornar a pàgina principal</a></p>
     </body>
