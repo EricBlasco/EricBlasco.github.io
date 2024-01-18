@@ -1,0 +1,84 @@
+#principal
+{
+    border: 2px solid red;   
+    width: 600px;
+    height: 600px;
+}
+#uno{
+    float: left;
+    width: 360px;
+    height: 100px;
+    background-color: green;
+}
+#dos{
+    float: right;
+    background-color: lightgreen;
+    height: 100px;
+    width: 240px;
+}
+#tres{
+    float: left;
+    background-color: black;
+    height: 200px;
+    width: 180px;
+}
+#cuatro{
+    float: left;
+    background-color: green;
+    height: 200px;
+    width: 180px;
+}
+#cinco{
+    float: right;
+    background-color: green;
+    height: 100px;
+    width: 240px;
+}
+#seis{
+    float: right;
+    background-color: lightgreen;
+    height: 100px;
+    width: 240px;
+}
+#siete{
+    float: left;
+    background-color: green;
+    height: 100px;
+    width: 180px;
+}
+#ocho{
+    float: left;
+    background-color: green;
+    height: 100px;
+    width: 180px;
+}
+#nueve{
+    float: right;
+    background-color: black;
+    height: 200px;
+    width: 240px;
+}
+#diez{
+    float: left;
+    background-color: black;
+    height: 200px;
+    width: 180px;
+}
+#once{
+    float: left;
+    background-color: lightgreen;
+    height: 100px;
+    width: 180px;
+}
+#doce{
+    float: left;
+    background-color: lightgreen;
+    height: 100px;
+    width: 180px;
+}
+#trece{
+    float: left;
+    background-color: green;
+    height: 100px;
+    width: 240px;
+}
